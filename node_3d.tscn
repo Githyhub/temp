@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=3 uid="uid://txicd0s525oe"]
 
 [ext_resource type="Script" path="res://camera_3d.gd" id="1_fl7uu"]
-[ext_resource type="ArrayMesh" path="res://Untitled 1005086-Mesh 1145078/24_09_28_21_01_12_174.obj" id="2_d730q"]
+[ext_resource type="ArrayMesh" uid="uid://candwfx0ovwvg" path="res://Untitled 1005086-Mesh 1145078/24_09_28_21_01_12_174.obj" id="2_d730q"]
 [ext_resource type="Script" path="res://camera_base.gd" id="2_t23x2"]
 
 [sub_resource type="Shader" id="Shader_t4ael"]
@@ -149,7 +149,7 @@ glow_enabled = true
 [node name="Node3D" type="Node3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.24412, -183.928, 228.002)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.24412, -106.835, -46.4903)
 mesh = SubResource("BoxMesh_6ju6p")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
@@ -162,6 +162,7 @@ environment = SubResource("Environment_celfd")
 
 [node name="Camera_Base" type="Node3D" parent="."]
 script = ExtResource("2_t23x2")
+camera_move_speed = null
 
 [node name="Camera_socket" type="Node3D" parent="Camera_Base"]
 
@@ -170,5 +171,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.31909, 0, -1.69763)
 script = ExtResource("1_fl7uu")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.693511, 0.0160913, 0.00144948, -0.0160569, 0.693357, -0.0147482, -0.00179088, 0.0147106, 0.693541, 65.9187, -74.7326, -231.263)
+transform = Transform3D(0.693511, 0.0160913, 0.00144948, -0.0160569, 0.693357, -0.0147482, -0.00179088, 0.0147106, 0.693541, 65.9187, -95.2971, -231.263)
 mesh = ExtResource("2_d730q")

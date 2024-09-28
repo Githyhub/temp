@@ -11,7 +11,10 @@ func _ready() -> void:
 	pass # Replace with function body.
 	
 func _unhandled_input(event: InputEvent) -> void:
-	pass
+	if event.is_action("camera_zoomin") 
+		camera_zoom_direction = -1
+	elif event.is_action("camera_zoomout")
+		camera_zoom_direction =-1
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
