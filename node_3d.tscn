@@ -1,7 +1,7 @@
-[gd_scene load_steps=12 format=3 uid="uid://dwxksan1hui72"]
+[gd_scene load_steps=12 format=3 uid="uid://txicd0s525oe"]
 
 [ext_resource type="Script" path="res://camera_3d.gd" id="1_fl7uu"]
-[ext_resource type="ArrayMesh" uid="uid://candwfx0ovwvg" path="res://Untitled 1005086-Mesh 1145078/24_09_28_21_01_12_174.obj" id="2_d730q"]
+[ext_resource type="ArrayMesh" path="res://Untitled 1005086-Mesh 1145078/24_09_28_21_01_12_174.obj" id="2_d730q"]
 [ext_resource type="Script" path="res://camera_base.gd" id="2_t23x2"]
 
 [sub_resource type="Shader" id="Shader_t4ael"]
